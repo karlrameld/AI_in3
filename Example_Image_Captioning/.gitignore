@@ -1,5 +1,10 @@
 images/*
 
+Flicker8k_Dataset/*
+
+__MACOSX/*
+
+
 *.txt
 
 *.h5

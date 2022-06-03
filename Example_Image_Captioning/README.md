@@ -55,4 +55,8 @@ SOFTWARE.
 
 DESCRIPTION:
 -
-Image Captioning notebook using Flicker8k.
+Image Captioning notebook using Flicker8k. This uses a pretrained CNN model (InceptionV3) with ImageNet Weights that feeds into a 
+Encoder RNN Decoder network to generate a caption for an image.
+Data is handled with tensorflow tensor slices and NLP is done by tokenizing the captions present in the dataset. 
+Data-Source: M. Hodosh, P. Young and J. Hockenmaier (2013) "Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics", Journal of Artifical Intellegence Research, Volume 47, pages 853-899
+http://www.jair.org/papers/paper3994.html
